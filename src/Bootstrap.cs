@@ -34,7 +34,7 @@ namespace MudDesigner.MudServer
         {
             // Server setup
             IServerConfiguration serverConfig = new ServerConfiguration();
-            serverConfig.Port = 2000;
+            serverConfig.Port = 10000;
             var server = new StandardServer(new TestPlayerFactory(), new ConnectionFactory());
             server.Configure(serverConfig);
             server.Owner = "@Scionwest";

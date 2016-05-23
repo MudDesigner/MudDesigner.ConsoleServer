@@ -17,7 +17,7 @@ namespace MudDesigner.MudServer.Windows
         public static void Main(string[] args)
         {
             SetupMessageBrokering();
-
+            
             var bootstrap = new Bootstrap();
             Task bootstrapTask = bootstrap.Initialize();
 

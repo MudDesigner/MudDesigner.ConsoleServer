@@ -18,18 +18,8 @@
   },
   
   "dependencies":{
-    "MudEngine.Core": {
-      "version": "1.0.0-preview1"
-    },
-    "MudEngine.Game":{
-        "version": "1.0.0-preview1"
-    },
-    "MudEngine.Networking": {
-        "version": "1.0.0-preview1"
-    },
-    "Adapter.MudServer": {
-      "version": "1.0.0-preview1"
-    },
+    "MudDesigner.MudEngine.Core": "1.0.0-Dev-*",
+    "MudDesigner.MudEngine.Adapter.MudServer": "1.0.0-Dev-*",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.0-rc2-3002702"
